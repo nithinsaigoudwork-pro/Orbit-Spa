@@ -1,0 +1,10 @@
+{
+  "title": "Home",
+  "hero": {
+    "eyebrow": "Orbit · SPA Demo",
+    "heading": "One page. Many views. Zero reloads.",
+    "body": "Orbit is a small single page application that swaps content in and out of a single container using JavaScript, while keeping the address bar, browser history, and back/forward buttons fully working.",
+    "primaryCta": { "label": "View projects", "route": "/projects" },
+    "secondaryCta": { "label": "See how it's built", "route": "/skills" }
+  }
+}

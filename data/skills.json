@@ -1,0 +1,9 @@
+{
+  "title": "Skills",
+  "subtitle": "Grouped by where they sit in the stack.",
+  "groups": [
+    { "name": "Languages", "skills": [ { "label": "Java", "level": 80 }, { "label": "JavaScript", "level": 45 }, { "label": "HTML / CSS", "level": 65 } ] },
+    { "name": "Frameworks & Tools", "skills": [ { "label": "React", "level": 30 }, { "label": "Spring Boot", "level": 35 }, { "label": "MongoDB", "level": 30 } ] },
+    { "name": "Practice", "skills": [ { "label": "DSA (LeetCode)", "level": 55 } ] }
+  ]
+}

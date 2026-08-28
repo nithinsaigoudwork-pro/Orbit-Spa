@@ -1,0 +1,10 @@
+{
+  "title": "Projects",
+  "subtitle": "A few things built while learning the stack.",
+  "items": [
+    { "tag": "Full-Stack", "name": "Job & Internship Portal", "description": "React front end, Spring Boot REST API, MongoDB storage, and JWT-based role access for students and recruiters." },
+    { "tag": "SPA", "name": "Orbit (this project)", "description": "A dependency-free single page app demonstrating client-side routing, the History API, and dynamic content loading." },
+    { "tag": "Practice", "name": "Daily DSA Log", "description": "A running log of daily problem-solving practice, used to track patterns across arrays, strings, and graphs." },
+    { "tag": "Hackathon", "name": "SIH Concept Sprint", "description": "An idea currently in the problem-scoping stage, aimed at Smart India Hackathon this cycle." }
+  ]
+}
