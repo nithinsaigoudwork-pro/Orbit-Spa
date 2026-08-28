@@ -28,3 +28,26 @@ Then open the printed local URL (e.g. `http://localhost:5500`) in a
 browser.
 
 ## Project structure
+spa-project/
+├── index.html # Single HTML shell — all routes render inside #view
+├── css/
+│ └── style.css # Design system, layout, transitions, responsiveness
+├── js/
+│ ├── data.js # Embedded fallback content (used if fetch fails)
+│ └── app.js # Router, content loader, view renderers
+└── data/
+├── home.json
+├── projects.json
+├── skills.json
+└── contact.json
+
+## Routes
+
+| Path         | View                          |
+|--------------|-------------------------------|
+| `/`          | Home / hero                   |
+| `/projects`  | Project cards                 |
+| `/skills`    | Skill bars grouped by category |
+| `/contact`   | Validated contact form         |
+
+Any other path renders a 404 view without leaving the SPA.
